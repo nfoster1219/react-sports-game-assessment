@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+@font-face {
+  font-family: "againtsregular";
+  src: url('https://cdn.jsdelivr.net/gh/max-barry/demo.vhs/src/fonts/againts-webfont.eot');
+  src: url('https://cdn.jsdelivr.net/gh/max-barry/demo.vhs/src/fonts/againts-webfont.eot') format('embedded-opentype'),
+       url('https://cdn.jsdelivr.net/gh/max-barry/demo.vhs/src/fonts/againts-webfont.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/max-barry/demo.vhs/src/fonts/againts-webfont.ttf') format('truetype'),
+       url('https://cdn.jsdelivr.net/gh/max-barry/demo.vhs/src/fonts/againts-webfont.svg') format('svg');
+}
+
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
